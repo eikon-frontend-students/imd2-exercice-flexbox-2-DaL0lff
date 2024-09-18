@@ -12,3 +12,84 @@ img,
 video {
   display: block;
 }
+
+body {
+  gap: 20px;
+  background: #fff;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  background: #ebead2;
+  padding: 20 0px;
+}
+
+.box {
+  border: 1px solid #979797;
+  background: #fff;
+  text-align: center;
+
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px; /* 150% */
+  letter-spacing: 0.313px;
+}
+
+.section-1 {
+  display: flex;
+  .box {
+    width: 50%;
+  }
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  .box {
+    width: 50%;
+  }
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  .box {
+    padding: 0 30px;
+  }
+}
+
+.section-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  .box {
+    width: 40%;
+  }
+}
+
+.section-5 {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  align-items: center;
+  .box {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+  }
+  div:nth-child(2) {
+    height: 148px;
+  }
+  div:nth-child(4) {
+    height: 197.368px;
+  }
+}
